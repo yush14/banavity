@@ -17,5 +17,33 @@
 }
 
 .foot-container{
-    background-color: chartreuse;
+    background-color: navy;
+    display:grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.foot
+{
+    color: white;
+    text-align:center;
+}
+.company
+{
+    background-color: deeppink;
+}
+.about
+{
+    background-color: firebrick;
+}
+.contact 
+{
+    background-color: darkseagreen;
+}
+.connect
+{
+    background-color: deepskyblue;
+}
+.termsAndPrivacy
+{
+    background-color: darkslateblue;
 }
