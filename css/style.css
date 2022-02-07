@@ -47,3 +47,15 @@
 {
     background-color: darkslateblue;
 }
+.socials
+{
+    background-color: maroon;
+    grid-row:2;
+    grid-column:5;
+}
+.description
+{
+    background-color: burlywood;
+    grid-row:2;
+    grid-column:1;
+}
