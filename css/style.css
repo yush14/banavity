@@ -26,10 +26,13 @@
 {
     color: white;
     text-align:center;
+    vertical-align: middle;
 }
-.company
+.logo
 {
     background-color: deeppink;
+    grid-row:1;
+    grid-column:1;
 }
 .about
 {
@@ -38,24 +41,30 @@
 .contact 
 {
     background-color: darkseagreen;
+    grid-row:1;
+    grid-column:2;
 }
-.connect
-{
-    background-color: deepskyblue;
-}
-.termsAndPrivacy
+.terms
 {
     background-color: darkslateblue;
+    grid-row:1;
+    grid-column:4;
+}
+.privacy
+{
+    background-color: goldenrod;
+    grid-row:1;
+    grid-column:5;
 }
 .socials
 {
     background-color: maroon;
-    grid-row:2;
-    grid-column:5;
+    grid-row:1;
+    grid-column:3;
 }
 .description
 {
-    background-color: burlywood;
+    background-color: plum;
     grid-row:2;
     grid-column:1;
 }
