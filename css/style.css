@@ -5,17 +5,22 @@
     height:100vh;
     width:100vw;
     display:grid;
-    grid-template-rows:0.75fr 9fr 0.5fr;
+    grid-template-rows:0.75fr 8.75fr 0.5fr;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 .head-container{
     background-color: #ECECEC;
-    display:grid;
-    grid-template-columns:2fr 4.5fr 1fr 1fr 1fr 0.25fr;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:flex-end;
 }
 
 .logo-container{
+    margin-right:auto;
+    width:17.5%;
+    max-height:100%;
     display:grid;
     grid-template-columns:1fr 9.5fr 1fr;
     grid-template-rows:1fr 9.5fr 1fr;
@@ -32,16 +37,49 @@
 }
 
 .navItem{
+    padding-left:2%;
+    padding-right:2%;
     display:flex;
     align-items:center;
     justify-content:center;
     color:black;
+    font-weight:bold;
     text-decoration:none;
+    font-size:large;
+    text-align:center;
+}
+
+.navItem:hover{
+    background-color:#FFE200;
 }
 
 .icon-container{
+    width:3%;
     display:grid;
     grid-template-rows:1fr 1fr;
+    justify-items:center;
+}
+
+.icon{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    max-height:100%;
+}
+
+.icon:hover{
+    background-color:#FFE200;
+}
+
+.switch{
+    width:50%;
+    height:auto;
+}
+
+.settings{
+    width:50%;
+    height:auto;
 }
 
 .interactive-container{
