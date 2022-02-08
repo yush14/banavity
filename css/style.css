@@ -88,4 +88,46 @@
 
 .foot-container{
     background-color: #ECECEC;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.foot
+{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    color: black;
+}
+.footlogo
+{
+    grid-row:1;
+    grid-column:3;
+}
+.contact 
+{
+    grid-row:1;
+    grid-column:1;
+}
+.terms
+{
+    grid-row:1;
+    grid-column:4;
+}
+.privacy
+{
+
+    grid-row:1;
+    grid-column:5;
+}
+.socials
+{
+    grid-row:1;
+    grid-column:2;
+}
+.description
+{
+    grid-row:2;
+    grid-column:1;
+    background-color: #ECECEC;
 }
