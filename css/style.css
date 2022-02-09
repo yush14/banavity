@@ -51,6 +51,12 @@
 
 .navItem:hover{
     background-color:#FFE200;
+    color:black;
+}
+
+.currentPage{
+    background-color:#bbbbbb;
+    color:white;
 }
 
 .icon-container{
