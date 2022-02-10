@@ -1,4 +1,6 @@
 .main-container{
+    background-image:url("../images/Dots_Backdrop_Light_3.png");
+    background-size:cover;
     position:fixed;
     top:0px;
     right:0px;
@@ -10,7 +12,7 @@
 }
 
 .head-container{
-    background-color: #ECECEC;
+    /*background-color: #ECECEC;*/
     display:flex;
     flex-direction:row;
     flex-wrap:nowrap;
@@ -89,7 +91,7 @@
 }
 
 .interactive-container{
-    background-color: white;
+    /*background-color: white;*/
 }
 
 .foot-container{
