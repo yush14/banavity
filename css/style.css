@@ -122,35 +122,3 @@
   grid-column: 1;
   background-color: #ececec;
 }
-.toolbox {
-  /* Toolbox Box area*/
-  height: 150px;
-  width: 150px;
-  border: solid 3px black;
-  margin: 10px;
-
-  /* aligns items in the box */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.drop-targets {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-
-  margin: 20px 0;
-}
-.drag-over {
-  border: dashed 3px red;
-}
-.tool {
-  height: 75px;
-  width: 75px;
-  background-color: #ffe200;
-}
-.hide {
-  display: none;
-}
