@@ -1,0 +1,30 @@
+.interactive-container{
+    background-color:white;
+    display:grid;
+    grid-template-rows:9fr 1fr;
+    grid-template-columns:1.5fr 8.5fr;
+}
+
+.toolbox{
+    background-color: blue;
+    display:grid;
+    grid-template-rows:8fr 2fr;
+}
+
+.objects{
+    background-color:purple;
+}
+
+.forces{
+    background-color: red;
+}
+
+.workspace{
+    background-color: yellow;
+}
+
+.workingFooter{
+    background-color: green;
+    grid-row:2;
+    grid-column:1/3;
+}
