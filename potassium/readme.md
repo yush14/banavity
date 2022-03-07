@@ -18,15 +18,3 @@ Note:
         django-admin startapp index
          - Makes a new app website to display content
          - Can make any number of these 
-    
-
-
-
-
-
-
-    
-
-
-readme to explain later
-go frick yourself
