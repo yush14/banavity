@@ -17,7 +17,7 @@ Note:
 
         django-admin startapp index
          - Makes a new app website to display content
-         - Can make any number of these
+         - Can make any number of these 
     
 
 
