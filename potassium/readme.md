@@ -18,3 +18,17 @@ Note:
         django-admin startapp index
          - Makes a new app website to display content
          - Can make any number of these 
+
+3/9/2022 Will Frankovich:
+    Its important to use virtual environments so there is no dependency issues when you switch projects. 
+
+    To create a virtual environment:
+        pip3 install pipenv
+         - package for managing different virtual environments
+
+        pipenv install django~=<version #>
+         - installs packages directly to virtual environment
+         - installs in current directory
+        
+        pipenv shell
+         - starts the env so that all commands can only use libraries installed in the virtual environment
