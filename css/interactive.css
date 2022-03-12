@@ -19,10 +19,6 @@
     background-color: red;
 }
 
-.workspace{
-    background-color: yellow;
-}
-
 .workingFooter{
     background-color: green;
     grid-row:2;
