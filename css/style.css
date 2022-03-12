@@ -42,14 +42,14 @@
   #menu-bar {
     width: 45px;
     height: 40px;
-    margin: 20px 45px 20px 20px;
+    margin: 10px 40px 20px 20px;
     cursor: pointer;
   }
   
   .bar {
     height: 5px;
     width: 100%;
-    background-color: #DC052D;
+    background-color: black;
     display: block;
     border-radius: 5px;
     transition: 0.3s ease;
@@ -78,7 +78,7 @@
   }
   
   .nav li a {
-    color: white;
+    color: black;
     font-size: 20px;
     text-decoration: none;
   }
@@ -97,8 +97,8 @@
     z-index: 1;
     width: 0;
     height: 0;
-    margin: 0px 30px 10px 10px;
-    background: radial-gradient(circle, #DC052D, #DC052D);
+    margin: 10px 10px 20px 20px;
+    background: radial-gradient(circle, #ffe601, #ffe601);
     border-radius: 50%;
     transition: 0.3s ease;
   }
@@ -108,7 +108,7 @@
   }
   
   .change .bar {
-    background-color: white;
+    background-color: black;
   }
   
   .change #bar1 {
